@@ -503,9 +503,9 @@ function library:CreateWindow(Name)
 				ZIndex = 2;
 				Font = Enum.Font.GothamSemibold;
 				PlaceholderText = Options.Default;
-				Text = Options.Default or "No value";
+				Text = Options.Default or "Head";
 				TextColor3 = Color3.fromRGB(255, 255, 255);
-				TextSize = 64.000;
+				TextSize = 15.000;
 			});
 			local BoxValueBackground = library:Create("ImageLabel",{
 				Name = "Box Value Background";
